@@ -12,7 +12,7 @@ def game_list(board): #to dispaly the board in tic tac toe format
     print ('  |  |')
     print (' '+board[1]+'| '+board[2]+'| '+board[3])
 
-def player_input(): #TO make user choose 'x' or 'o' as marker 
+def player_input(): #to make user choose 'x' or 'o' as marker 
     marker = ''
     while marker != 'x' and marker != 'o':
         marker = input("player1 choose from X or O: ").lower()
