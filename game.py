@@ -37,7 +37,7 @@ def win_check(board,marker): #possibility for winning the game
     (board[9]==board[6]==board[3]==marker)or
     #digonal check
     (board[9]==board[5]==board[1]==marker)or
-    (board[7]==board[5]==board[2]==marker))
+    (board[7]==board[5]==board[3]==marker))
 
 def choose_first():  #selecting randomly fron player1 or player 2
     flip = random.randint(0,1)
