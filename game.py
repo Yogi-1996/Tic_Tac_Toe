@@ -125,7 +125,7 @@ while True:
                     print('game is tie')
                     game_on = False
                 else:
-                    print("player 2 turn")
+                    print("player 1 turn")
                     turn = 'player 1'
     if not replay():
         break
